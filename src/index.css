@@ -1,35 +1,29 @@
-/* * {
-  padding: 0;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --font-base: 'Lexend', sans-serif;;
+  --font-second-base: 'Inter', sans-serif;
+  --bg-color:#111;
+  --primary-color: #ffffff;
+  --secondary-color: #e50914;
+}
+* {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
-*::-webkit-scrollbar {
-  display: none;
-}
-body{
-    background: black;
-} */
-
-
-
-
-
-
-
-
-
-
-/* code{
-    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+body {
+  background: var(--bg-color)
 }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-:root {
-    --font-base:'Lexend', sans-serif;
-    --font-second-base: 'Inter', sans-serif;
-    --background: black;
-    --primary-color: #fff
-    --secondary-color:red 
-} */
+
+
+
+
+
+
+
+
 
